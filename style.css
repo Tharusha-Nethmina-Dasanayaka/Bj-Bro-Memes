@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+
+body{
+    background-image: url(Asset/wallpaper.jpg);
+    background-repeat: no-repeat;
+    width: 100vw;
+    overflow: -moz-hidden-unscrollable;
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+.img-text{
+    display: grid;
+    justify-content: center;
+    margin-top: 80px;
+}
+.img-text img{
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+}
+.img-text h2{
+    color: white;
+    margin-top: 30px;
+    
+}
+.buttons{
+    display: grid;
+    justify-content: center;
+}
+
+.social-btn a{
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.social-btn {
+     width: 200px;
+     height: 70px;
+     border-radius: 20px;
+     margin-bottom: 30px;
+     display: flex;
+     align-items: center;
+    text-align: center;
+    }
+    
+    .icon-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    }
+    
+    .icon-name i {
+     font-size: 48px;
+     margin-bottom: 5px; 
+     margin-top: 15px;
+     margin-right: 10px;
+    }
+    
+    .icon-name p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Kadwa";
+    color: black;
+    margin: 0;
+    text-align: center;
+    }
+    
+footer{
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+footer span a{
+    color: #00FF00;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    footer{
+        margin-top: 100px;
+    }
+
+}
